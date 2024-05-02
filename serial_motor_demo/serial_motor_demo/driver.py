@@ -1,13 +1,12 @@
 import rclpy
 from rclpy.node import Node
+from geometry_msgs.msg import Twist  # Import Twist for velocity commands
 from serial_motor_demo_msgs.msg import MotorCommand
-from serial_motor_demo_msgs.msg import MotorVels
-from serial_motor_demo_msgs.msg import EncoderVals
+from serial_motor_demo_msgs.msg import SteeringCommand 
 import time
 import math
 import serial
 from threading import Lock
-
 
 
 class MotorDriver(Node):
@@ -15,128 +14,159 @@ class MotorDriver(Node):
     def __init__(self):
         super().__init__('motor_driver')
 
-
-        # Setup parameters
-
-        self.declare_parameter('encoder_cpr', value=0)
-        if (self.get_parameter('encoder_cpr').value == 0):
-            print("WARNING! ENCODER CPR SET TO 0!!")
-
-
-        self.declare_parameter('loop_rate', value=0)
+        # Setup parameters (remove encoder-related parameters)
+        self.declare_parameter('loop_rate', value=30)
         if (self.get_parameter('loop_rate').value == 0):
             print("WARNING! LOOP RATE SET TO 0!!")
 
-
-        self.declare_parameter('serial_port', value="/dev/ttyUSB0")
+        self.declare_parameter('serial_port', value="/dev/ttyACM0")
         self.serial_port = self.get_parameter('serial_port').value
-
 
         self.declare_parameter('baud_rate', value=57600)
         self.baud_rate = self.get_parameter('baud_rate').value
-
 
         self.declare_parameter('serial_debug', value=False)
         self.debug_serial_cmds = self.get_parameter('serial_debug').value
         if (self.debug_serial_cmds):
             print("Serial debug enabled")
 
-
-
         # Setup topics & services
-
         self.subscription = self.create_subscription(
             MotorCommand,
             'motor_command',
             self.motor_command_callback,
             10)
-
-        self.speed_pub = self.create_publisher(MotorVels, 'motor_vels', 10)
-
-        self.encoder_pub = self.create_publisher(EncoderVals, 'encoder_vals', 10)
         
+        self.subscription = self.create_subscription(
+            SteeringCommand,
+            'steer_commands',  
+            self.servo_command_callback,
+            10)
+        
+                # Joy Subscription
+        self.joy_sub = self.create_subscription(
+            Twist,
+            'cmd_vel',  # Use the standard 'cmd_vel' topic
+            self.joy_callback,
+            10 
+        )
 
         # Member Variables
-
-        self.last_enc_read_time = time.time()
-        self.last_m1_enc = 0
-        self.last_m2_enc = 0
-        self.m1_spd = 0.0
-        self.m2_spd = 0.0
-
         self.mutex = Lock()
 
-
         # Open serial comms
-
         print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
         self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
         print(f"Connected to {self.conn}")
-        
 
-        
-
-
-    # Raw serial commands
     
+        # Parameters for steering geometry and limits
+        self.declare_parameter('wheelbase', 65) 
+        self.wheelbase = self.get_parameter('wheelbase').get_parameter_value().double_value  
+        self.declare_parameter('track_width', 63.5)
+        self.track_width = self.get_parameter('track_width').get_parameter_value().double_value  
+        self.declare_parameter('max_steering_angle', 45.0)
+        self.max_steering_angle = self.get_parameter('max_steering_angle').get_parameter_value().double_value   
+        self.declare_parameter('servo_zero_offset', 90.0)
+        self.servo_zero_offset = self.get_parameter('servo_zero_offset').get_parameter_value().double_value          
+
+    # Raw serial commands 
     def send_pwm_motor_command(self, mot_1_pwm, mot_2_pwm):
         self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}")
 
-    def send_feedback_motor_command(self, mot_1_ct_per_loop, mot_2_ct_per_loop):
-        self.send_command(f"m {int(mot_1_ct_per_loop)} {int(mot_2_ct_per_loop)}")
-
-    def send_encoder_read_command(self):
-        resp = self.send_command(f"e")
-        if resp:
-            return [int(raw_enc) for raw_enc in resp.split()]
-        return []
-
-
     # More user-friendly functions
-
-    def motor_command_callback(self, motor_command):
-        if (motor_command.is_pwm):
-            self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec)
+    def motor_command_callback(self, command):  
+        if isinstance(command, SteeringCommand): 
+            self.process_steering(command)
+        elif isinstance(command, MotorCommand):
+            if command.is_pwm:
+                self.process_motor_command(command)  
+            else:
+                print("Warning: feedback control mode requested, but not supported")
         else:
-            # counts per loop = req rads/sec X revs/rad X counts/rev X secs/loop 
-            scaler = (1 / (2*math.pi)) * self.get_parameter('encoder_cpr').value * (1 / self.get_parameter('loop_rate').value)
-            mot1_ct_per_loop = motor_command.mot_1_req_rad_sec * scaler
-            mot2_ct_per_loop = motor_command.mot_2_req_rad_sec * scaler
-            self.send_feedback_motor_command(mot1_ct_per_loop, mot2_ct_per_loop)
+            pass  # Handle unexpected message type if needed
 
-    def check_encoders(self):
-        resp = self.send_encoder_read_command()
-        if (resp):
+    def process_motor_command(self, motor_command):
+        mot1_pwm = motor_command.mot_1_req_rad_sec # or extract desired PWM value
+        mot2_pwm = motor_command.mot_2_req_rad_sec # or extract desired PWM value
+        self.send_pwm_motor_command(mot1_pwm, mot2_pwm) 
 
-            new_time = time.time()
-            time_diff = new_time - self.last_enc_read_time
-            self.last_enc_read_time = new_time
+    def process_steering(self, steer_commands):  
+        steering_angle = steer_commands.steering_angle
+        turning_radius = steer_commands.turning_radius
 
-            m1_diff = resp[0] - self.last_m1_enc
-            self.last_m1_enc = resp[0]
-            m2_diff = resp[1] - self.last_m2_enc
-            self.last_m2_enc = resp[1]
+        # Add parameters for vehicle dimensions
+        self.wheelbase = 0.5  # Replace with your actual wheelbase
+        self.track_width = 0.4  # Replace with your actual track width
 
-            rads_per_ct = 2*math.pi/self.get_parameter('encoder_cpr').value
-            self.m1_spd = m1_diff*rads_per_ct/time_diff
-            self.m2_spd = m2_diff*rads_per_ct/time_diff
+        front_wheel_angle, rear_wheel_angle = calculate_ackermann(steering_angle, turning_radius)
 
-            spd_msg = MotorVels()
-            spd_msg.mot_1_rad_sec = self.m1_spd
-            spd_msg.mot_2_rad_sec = self.m2_spd
-            self.speed_pub.publish(spd_msg)
+        # Servo Configuration
+        servo_min_pwm = 1000  # PWM for 0 degrees
+        servo_max_pwm = 2000  # PWM for 180 degrees
+        servo_angle_range = 180  
 
-            enc_msg = EncoderVals()
-            enc_msg.mot_1_enc_val = self.last_m1_enc
-            enc_msg.mot_2_enc_val = self.last_m2_enc
-            self.encoder_pub.publish(enc_msg)
+        # Linearly map steering angle to PWM for front and rear servos
+        front_pwm = int(servo_min_pwm + (front_wheel_angle / servo_angle_range) * (servo_max_pwm - servo_min_pwm))
+        rear_pwm = int(servo_min_pwm + (rear_wheel_angle / servo_angle_range) * (servo_max_pwm - servo_min_pwm))
+
+        # ... Construct your command string here ...
+        
+
+
+        def calculate_ackermann(steering_angle, turning_radius):
+            if turning_radius == 0: 
+            # Handle the special case of driving straight
+                return 90, 90  # Both front and rear wheels at 0 degrees
+
+            inner_angle = math.atan2(self.wheelbase, (turning_radius - self.track_width/2)) 
+            outer_angle = math.atan2(self.wheelbase, (turning_radius + self.track_width/2))
+            return inner_angle, outer_angle
+
+        
+        command_string = f"h {steer_commands.steering_angle} {steer_commands.turning_radius}" # Example 
+        self.send_command(command_string)  
+
+    def servo_command_callback(self, steer_commands):  
+        steering_angle = steer_commands.steering_angle
+        turning_radius = steer_commands.turning_radius
+
+        command_string = f"h {steering_angle} {turning_radius}" 
+        self.send_command(command_string)
+
+    def joy_callback(self, twist_msg):
+        linear_x = twist_msg.linear.x
+        angular_z = twist_msg.angular.z
+
+        # Scale linear_x for motor PWM range (adjust max_pwm based on your setup)
+        max_pwm = 255*2  # Adjust this value based on your motor PWM range
+        motor_pwm = int(linear_x * max_pwm / 2.0)  # Scale and handle direction
+
+
+        # Assuming positive angular_z is right turn, negative is left
+        turn_direction = -1 if angular_z > 0 else 1
+        JOYSTICK_RANGE = 1.0  # Assumes joystick values between -1 to 1
+        SERVO_RANGE = 400  # 500 - 100 
+        SERVO_OFFSET = 300  # (500 + 100) / 2 (Center of the servo range)
+
+        # Scale and offset for the desired servo range
+        scaled_servo_value = angular_z * JOYSTICK_RANGE * (SERVO_RANGE / 2) + SERVO_OFFSET
+
+        # Ensure value stays within the desired range
+        servo_value = max(100, min(500, scaled_servo_value)) 
+
+        # Construct servo command string
+        servo_command = f"h {turn_direction} {servo_value}"
+
+        # Send motor and servo commands using your existing functions
+        self.send_pwm_motor_command(motor_pwm, motor_pwm)  # Send to both motors
+        self.send_command(servo_command)  # Send servo command
+
 
 
 
     # Utility functions
-
     def send_command(self, cmd_string):
-        
         self.mutex.acquire()
         try:
             cmd_string += "\r"
@@ -165,22 +195,10 @@ class MotorDriver(Node):
     def close_conn(self):
         self.conn.close()
 
-
-
 def main(args=None):
-    
     rclpy.init(args=args)
-
     motor_driver = MotorDriver()
-
-    rate = motor_driver.create_rate(2)
-    while rclpy.ok():
-        rclpy.spin_once(motor_driver)
-        motor_driver.check_encoders()
-
-
+    rclpy.spin(motor_driver)  # No more rate or encoder checks needed 
     motor_driver.close_conn()
     motor_driver.destroy_node()
     rclpy.shutdown()
-
-
