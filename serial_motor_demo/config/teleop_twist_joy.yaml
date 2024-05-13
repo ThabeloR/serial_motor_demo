@@ -13,6 +13,6 @@ teleop_node:
     axis_angular:
       yaw: 0
     scale_angular:
-      yaw: 0.5
+      yaw: 1.0
 
     enable_button: 5

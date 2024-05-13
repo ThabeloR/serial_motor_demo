@@ -110,7 +110,7 @@ class MotorDriver(Node):
         front_pwm = int(servo_min_pwm + (front_wheel_angle / servo_angle_range) * (servo_max_pwm - servo_min_pwm))
         rear_pwm = int(servo_min_pwm + (rear_wheel_angle / servo_angle_range) * (servo_max_pwm - servo_min_pwm))
 
-        # ... Construct your command string here ...
+ 
         
 
 
@@ -144,16 +144,23 @@ class MotorDriver(Node):
 
 
         # Assuming positive angular_z is right turn, negative is left
-        turn_direction = -1 if angular_z > 0 else 1
+        if angular_z == 0:
+            turn_direction = 0
+        elif angular_z < 0:
+            turn_direction = 1
+        else:
+            turn_direction = -1
+        #turn_direction = -1 if angular_z > 0 else 1 
         JOYSTICK_RANGE = 1.0  # Assumes joystick values between -1 to 1
         SERVO_RANGE = 400  # 500 - 100 
-        SERVO_OFFSET = 300  # (500 + 100) / 2 (Center of the servo range)
+        SERVO_MAX = 500  # Maximum servo value
 
-        # Scale and offset for the desired servo range
-        scaled_servo_value = angular_z * JOYSTICK_RANGE * (SERVO_RANGE / 2) + SERVO_OFFSET
+        # Mapping joystick to servo range
+        scaled_servo_value = SERVO_MAX - abs(angular_z) * JOYSTICK_RANGE * SERVO_RANGE 
 
-        # Ensure value stays within the desired range
-        servo_value = max(100, min(500, scaled_servo_value)) 
+
+            # Ensure value stays within the desired range
+        servo_value = max(50, min(500, scaled_servo_value)) 
 
         # Construct servo command string
         servo_command = f"h {turn_direction} {servo_value}"
