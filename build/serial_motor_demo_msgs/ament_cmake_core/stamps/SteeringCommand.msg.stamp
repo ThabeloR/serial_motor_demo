@@ -1,0 +1,2 @@
+int16 steering_angle
+int16 turning_radius

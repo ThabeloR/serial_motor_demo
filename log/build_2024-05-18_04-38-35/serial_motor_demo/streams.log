@@ -1,0 +1,30 @@
+[2.629s] Invoking command in '/home/pro/Mars_Rover/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pro/Mars_Rover/build/serial_motor_demo/prefix_override:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pro/Mars_Rover/build/serial_motor_demo/build --no-deps symlink_data
+[3.536s] running develop
+[4.024s] running egg_info
+[4.025s] creating serial_motor_demo.egg-info
+[4.025s] writing serial_motor_demo.egg-info/PKG-INFO
+[4.026s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[4.026s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[4.027s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[4.027s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[4.038s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[4.155s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[4.158s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[4.303s] running build_ext
+[4.305s] Creating /home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[4.316s] Creating /home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[4.319s] Installing driver script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.319s] Installing gui script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.321s] 
+[4.321s] Installed /home/pro/Mars_Rover/build/serial_motor_demo
+[4.322s] running symlink_data
+[4.322s] creating /home/pro/Mars_Rover/install/serial_motor_demo/share/ament_index
+[4.323s] creating /home/pro/Mars_Rover/install/serial_motor_demo/share/ament_index/resource_index
+[4.323s] creating /home/pro/Mars_Rover/install/serial_motor_demo/share/ament_index/resource_index/packages
+[4.324s] symbolically linking /home/pro/Mars_Rover/build/serial_motor_demo/resource/serial_motor_demo -> /home/pro/Mars_Rover/install/serial_motor_demo/share/ament_index/resource_index/packages
+[4.324s] symbolically linking /home/pro/Mars_Rover/build/serial_motor_demo/package.xml -> /home/pro/Mars_Rover/install/serial_motor_demo/share/serial_motor_demo
+[4.325s] creating /home/pro/Mars_Rover/install/serial_motor_demo/share/serial_motor_demo/config
+[4.326s] symbolically linking /home/pro/Mars_Rover/build/serial_motor_demo/config/teleop_twist_joy.yaml -> /home/pro/Mars_Rover/install/serial_motor_demo/share/serial_motor_demo/config
+[4.327s] creating /home/pro/Mars_Rover/install/serial_motor_demo/share/serial_motor_demo/launch
+[4.328s] symbolically linking /home/pro/Mars_Rover/build/serial_motor_demo/launch/rover_control.launch.py -> /home/pro/Mars_Rover/install/serial_motor_demo/share/serial_motor_demo/launch
+[4.442s] Invoked command in '/home/pro/Mars_Rover/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pro/Mars_Rover/build/serial_motor_demo/prefix_override:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pro/Mars_Rover/build/serial_motor_demo/build --no-deps symlink_data

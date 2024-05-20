@@ -1,0 +1,9 @@
+{
+  "package_name": "serial_motor_demo_msgs",
+  "non_idl_tuples": [
+    "/home/pro/Mars_Rover/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorCommand.msg",
+    "/home/pro/Mars_Rover/src/serial_motor_demo/serial_motor_demo_msgs:msg/MotorVels.msg",
+    "/home/pro/Mars_Rover/src/serial_motor_demo/serial_motor_demo_msgs:msg/EncoderVals.msg",
+    "/home/pro/Mars_Rover/src/serial_motor_demo/serial_motor_demo_msgs:msg/SteeringCommand.msg"
+  ]
+}
