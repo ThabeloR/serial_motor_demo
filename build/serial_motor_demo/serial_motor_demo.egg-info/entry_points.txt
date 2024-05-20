@@ -1,4 +1,7 @@
 [console_scripts]
 driver = serial_motor_demo.driver:main
 gui = serial_motor_demo.gui:main
+obstacle_avoid_sonar = serial_motor_demo.obstacle_avoid_sonar:main
+sonar = serial_motor_demo.sonar:main
+sonar_array = serial_motor_demo.sonar_array:main
 

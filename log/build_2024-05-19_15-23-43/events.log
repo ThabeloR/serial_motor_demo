@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.001059] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.001412] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/pro/Mars_Rover/install/serial_motor_demo_msgs')])}
+[0.002613] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.052016] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.056470] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.058860] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pro/Mars_Rover/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pro/Mars_Rover/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pro'), ('SSH_CLIENT', '192.168.137.215 47930 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pro'), ('OLDPWD', '/home/pro'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5c9c3e5-cb29-446a-b100-54ba0377ad79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/pro/.local/bin:/opt/ros/foxy/bin:/home/pro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-41f17af8e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pro/Mars_Rover/build/serial_motor_demo_msgs'), ('SSH_CONNECTION', '192.168.137.215 47930 192.168.137.27 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099220] (-) TimerEvent: {}
+[0.200094] (-) TimerEvent: {}
+[0.300920] (-) TimerEvent: {}
+[0.401641] (-) TimerEvent: {}
+[0.496197] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target serial_motor_demo_msgs__cpp\n'}
+[0.501983] (-) TimerEvent: {}
+[0.515747] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[0.602219] (-) TimerEvent: {}
+[0.616429] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[0.635291] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.655233] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 45%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[0.665560] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 56%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.702456] (-) TimerEvent: {}
+[0.714812] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 67%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[0.795243] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.802631] (-) TimerEvent: {}
+[0.871691] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs\n'}
+[0.902899] (-) TimerEvent: {}
+[0.976427] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 80%] Built target serial_motor_demo_msgs__py\n'}
+[1.003091] (-) TimerEvent: {}
+[1.103915] (-) TimerEvent: {}
+[1.116079] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 89%] Built target serial_motor_demo_msgs__python\n'}
+[1.204120] (-) TimerEvent: {}
+[1.256030] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.257043] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.266636] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[1.304364] (-) TimerEvent: {}
+[1.309256] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[1.404577] (-) TimerEvent: {}
+[1.505414] (-) TimerEvent: {}
+[1.606636] (-) TimerEvent: {}
+[1.707945] (-) TimerEvent: {}
+[1.764565] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[1.800678] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pro/Mars_Rover/build/serial_motor_demo_msgs'], 'cwd': '/home/pro/Mars_Rover/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pro'), ('SSH_CLIENT', '192.168.137.215 47930 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pro'), ('OLDPWD', '/home/pro'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5c9c3e5-cb29-446a-b100-54ba0377ad79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/pro/.local/bin:/opt/ros/foxy/bin:/home/pro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-41f17af8e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pro/Mars_Rover/build/serial_motor_demo_msgs'), ('SSH_CONNECTION', '192.168.137.215 47930 192.168.137.27 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.809145] (-) TimerEvent: {}
+[1.838478] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.841355] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.843143] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[1.849907] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[1.851295] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[1.852321] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[1.853399] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[1.854435] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[1.857024] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[1.857615] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[1.858950] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[1.859612] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[1.860455] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__functions.h\n'}
+[1.861522] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__struct.h\n'}
+[1.862854] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__type_support.h\n'}
+[1.863940] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[1.865221] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[1.866532] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[1.867711] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.868711] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/steering_command.h\n'}
+[1.870077] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[1.871441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[1.875481] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[1.876624] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.877711] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[1.878782] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.879868] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.882366] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.886721] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.887843] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.888944] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.890035] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.891123] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.893517] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.896651] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[1.897687] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[1.898794] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[1.899944] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__rosidl_typesupport_introspection_c.h\n'}
+[1.901250] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.905359] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[1.906453] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[1.907758] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[1.909028] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[1.909582] (-) TimerEvent: {}
+[1.911237] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[1.912016] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[1.912733] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[1.913796] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[1.914881] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[1.916327] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[1.917432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[1.918629] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[1.919799] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__builder.hpp\n'}
+[1.920859] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__struct.hpp\n'}
+[1.921905] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__traits.hpp\n'}
+[1.922958] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__type_support.hpp\n'}
+[1.923997] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[1.925023] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[1.925977] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[1.926977] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.928025] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/steering_command.hpp\n'}
+[1.931005] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.932119] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.933219] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.934353] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/steering_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.935803] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[1.937108] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[1.938404] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[1.941116] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[1.942104] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[1.943140] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[1.944268] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[1.945315] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_steering_command.py\n'}
+[1.947832] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.950225] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.952720] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.955008] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[1.956518] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[1.957795] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[1.959188] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[1.960888] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/SteeringCommand.idl\n'}
+[1.962359] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[1.963946] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[1.965253] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[1.966570] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/SteeringCommand.msg\n'}
+[1.968479] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[1.970095] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[1.971388] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[1.972826] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[1.975672] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[1.976449] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[1.977223] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[1.978719] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[1.979980] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[1.981200] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[1.982106] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[2.009821] (-) TimerEvent: {}
+[2.014667] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[2.015943] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.017661] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.019133] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.020492] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.021824] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.023446] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.024856] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.026362] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[2.027319] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[2.028707] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[2.030043] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[2.032140] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.034103] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[2.036095] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.038049] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[2.110004] (-) TimerEvent: {}
+[2.186051] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[2.187005] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.188772] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.190158] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.191093] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.191924] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.193305] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.194999] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.196414] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.197247] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.203270] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pro/Mars_Rover/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.207221] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[2.210132] (-) TimerEvent: {}
+[2.310958] (-) TimerEvent: {}
+[2.411949] (-) TimerEvent: {}
+[2.512842] (-) TimerEvent: {}
+[2.613510] (-) TimerEvent: {}
+[2.714460] (-) TimerEvent: {}
+[2.796825] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[2.802227] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[2.814631] (-) TimerEvent: {}
+[2.915465] (-) TimerEvent: {}
+[3.016370] (-) TimerEvent: {}
+[3.117263] (-) TimerEvent: {}
+[3.218005] (-) TimerEvent: {}
+[3.318655] (-) TimerEvent: {}
+[3.419311] (-) TimerEvent: {}
+[3.520016] (-) TimerEvent: {}
+[3.620715] (-) TimerEvent: {}
+[3.721488] (-) TimerEvent: {}
+[3.822432] (-) TimerEvent: {}
+[3.923537] (-) TimerEvent: {}
+[4.024957] (-) TimerEvent: {}
+[4.125857] (-) TimerEvent: {}
+[4.226500] (-) TimerEvent: {}
+[4.327165] (-) TimerEvent: {}
+[4.427910] (-) TimerEvent: {}
+[4.528645] (-) TimerEvent: {}
+[4.629312] (-) TimerEvent: {}
+[4.729945] (-) TimerEvent: {}
+[4.830610] (-) TimerEvent: {}
+[4.931350] (-) TimerEvent: {}
+[5.032067] (-) TimerEvent: {}
+[5.132769] (-) TimerEvent: {}
+[5.233415] (-) TimerEvent: {}
+[5.334760] (-) TimerEvent: {}
+[5.380661] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pro/Mars_Rover/build/serial_motor_demo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pro/Mars_Rover/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pro', 'SSH_CLIENT': '192.168.137.215 47930 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pro', 'OLDPWD': '/home/pro', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d5c9c3e5-cb29-446a-b100-54ba0377ad79.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pro/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/pro/.local/bin:/opt/ros/foxy/bin:/home/pro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-41f17af8e6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pro/Mars_Rover/install/serial_motor_demo_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pro/Mars_Rover/build/serial_motor_demo', 'SSH_CONNECTION': '192.168.137.215 47930 192.168.137.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pro/Mars_Rover/build/serial_motor_demo/prefix_override:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pro/Mars_Rover/install/serial_motor_demo_msgs'}, 'shell': False}
+[5.435076] (-) TimerEvent: {}
+[5.536384] (-) TimerEvent: {}
+[5.637497] (-) TimerEvent: {}
+[5.738200] (-) TimerEvent: {}
+[5.838904] (-) TimerEvent: {}
+[5.939636] (-) TimerEvent: {}
+[6.040273] (-) TimerEvent: {}
+[6.140926] (-) TimerEvent: {}
+[6.241618] (-) TimerEvent: {}
+[6.309985] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[6.341768] (-) TimerEvent: {}
+[6.442476] (-) TimerEvent: {}
+[6.543200] (-) TimerEvent: {}
+[6.643912] (-) TimerEvent: {}
+[6.744635] (-) TimerEvent: {}
+[6.807859] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[6.808538] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[6.809549] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[6.810399] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[6.811053] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[6.811753] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[6.844746] (-) TimerEvent: {}
+[6.939423] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[6.943325] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[6.944872] (-) TimerEvent: {}
+[7.045568] (-) TimerEvent: {}
+[7.083863] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[7.085928] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[7.089231] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[7.090054] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[7.090743] (serial_motor_demo) StdoutLine: {'line': b'Installing obstacle_avoid_sonar script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[7.091456] (serial_motor_demo) StdoutLine: {'line': b'Installing sonar script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[7.092193] (serial_motor_demo) StdoutLine: {'line': b'Installing sonar_array script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[7.093280] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[7.093830] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/pro/Mars_Rover/build/serial_motor_demo\n'}
+[7.094181] (serial_motor_demo) StdoutLine: {'line': b'running symlink_data\n'}
+[7.145799] (-) TimerEvent: {}
+[7.212265] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[7.245939] (-) TimerEvent: {}
+[7.248774] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[7.251604] (-) EventReactorShutdown: {}

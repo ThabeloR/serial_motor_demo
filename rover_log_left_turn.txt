@@ -1,0 +1,321 @@
+[INFO] [launch]: All log files can be found below /home/pro/.ros/log/2024-05-19-18-50-22-197273-pro-54144
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joy_node-1]: process started with pid [54169]
+[INFO] [teleop_node-2]: process started with pid [54171]
+[INFO] [driver-3]: process started with pid [54173]
+[INFO] [sonar_array-4]: process started with pid [54175]
+[INFO] [obstacle_avoid_sonar-5]: process started with pid [54178]
+[teleop_node-2] [INFO] [1716144622.714749759] [TeleopTwistJoy]: Teleop enable button 5.
+[teleop_node-2] [INFO] [1716144622.714966915] [TeleopTwistJoy]: Linear axis x on 1 at scale 1.000000.
+[teleop_node-2] [INFO] [1716144622.715013028] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 1.000000.
+[joy_node-1] [INFO] [1716144623.194796098] [joy]: Opened joystick: Logitech Gamepad F710.  deadzone: 0.050000
+[obstacle_avoid_sonar-5] [INFO] [1716144629.072105464] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.109776189] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.129251326] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.149221833] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.168159117] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.185789944] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.203502885] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.213416886] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.222542191] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.231626735] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.78m, C:0.20m, R:3.50m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.271186476] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.330976456] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.373752188] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.423004755] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.470180873] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.518682764] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.569251640] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.619879462] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.671149826] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.721465970] [obst_avoid_node]: STOPPED: Object too close. Ranges: L:1.46m, C:0.20m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144629.730856970] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:1.46m, C:1.98m, R:3.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.252607538] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.272124375] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.315807946] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.364978646] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.414773741] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.470536057] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.518501268] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.569149413] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.620900006] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.672817049] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.723799040] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.06m, C:1.02m, R:0.42m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.779165545] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.822602310] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.876131321] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.917005083] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144632.969312141] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.019352743] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.070477883] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.118798437] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.171642103] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.222653572] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:0.88m, C:0.85m, R:0.35m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.272659726] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.324078581] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.373850948] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.427582851] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.477335810] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.531416116] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.578291727] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.631057335] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.680141584] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.83m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.733593014] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.29m, C:0.92m, R:0.73m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.784404957] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.841236587] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.890587290] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.942786544] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144633.992918332] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.043596359] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.096146826] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.144767813] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.196186756] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.19m, C:0.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.241323744] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:1.25m, C:1.92m, R:0.60m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.251499029] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.296307338] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.348450919] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.399622260] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.449704284] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.499649265] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.551011835] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.600675843] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.647610305] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.657617120] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144634.704500710] [obst_avoid_node]: AVOIDING: Object detected on the RIGHT. Ranges: L:1.25m, C:1.92m, R:0.57m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.236681837] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.16m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.273855080] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.321243273] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.331316608] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.375998072] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.423005734] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.433980528] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.479051488] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.522590151] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.532714061] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.573984881] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.584236445] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.622408595] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.626330313] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.640942482] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.676233248] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.686376771] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.722482678] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.726333338] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.74m, C:0.85m, R:1.28m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.742467804] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.784089915] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.831721988] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.873445510] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.881614589] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.892553178] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.934492874] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.977217674] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.981072001] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144636.996025016] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.037213960] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.085355585] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.122019806] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.129879911] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.140812313] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.173514926] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.177563612] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.192711818] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.80m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.226376280] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.74m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.234386483] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.74m, R:1.37m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.731963090] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.32m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.747525534] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.781330742] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.785339908] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.800528227] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.841606481] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.845762153] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.861156442] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.902391369] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.912838253] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.948563106] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.952682147] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144637.968158051] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.004167210] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.008079391] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.018447791] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.050155308] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.054162011] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.069159563] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.104242149] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.108738147] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.122606953] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.150643706] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.155287951] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.177299575] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.210312029] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.214453848] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.225783376] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.69m, C:0.66m, R:1.27m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.253317277] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.257206772] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.274651635] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.310300594] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.322085305] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.357931512] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.361901213] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.378071289] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.419150818] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.457799646] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.462282292] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.481481924] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.522017988] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.560387047] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.564817413] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.583466062] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.625683281] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.653734775] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.663494226] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.683328011] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.718475544] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.723454764] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.737762327] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.90m, C:0.61m, R:1.24m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.758275544] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.768769485] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.783627254] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.813158154] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.817732156] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.837324265] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.872373905] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.876840736] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.889848344] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.920695570] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.925684050] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.939311255] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.969822747] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.974475844] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144638.987744757] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.017646670] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.022165836] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.039672756] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.073165059] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.083929065] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.117059503] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.120880698] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.137822449] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.174297769] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.178130428] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.190239835] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.216631396] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.220803957] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.65m, C:0.59m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.238600850] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.34m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.267831941] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.276877366] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.289367509] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.322851737] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.331350438] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.343311488] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.372694566] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.381255065] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.393108500] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.417949319] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.426351812] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.438634022] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.469482172] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.473447540] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.490035111] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.519343835] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.527693271] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.539755621] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.571980562] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.575930355] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.593284677] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.622162903] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.626008748] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.642299290] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.671659034] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.675516453] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.693115173] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.723260538] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.727076381] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.15m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.746018780] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.776044900] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.779846688] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.797233640] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.839245052] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.872868785] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.877006437] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.893585675] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.923286913] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.927128387] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.944887224] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.976067016] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.984978324] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144639.998406909] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.023256468] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.027152610] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.043663067] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.073592625] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.078330484] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.100587688] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.124122290] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.128751608] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.149971551] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.175187289] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.179524707] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.197873749] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.224687860] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.228696896] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.58m, R:1.21m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.247308392] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.273850457] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.277763600] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.300066713] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.331009179] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.339966988] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.352531393] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.386999506] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.390953133] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.408941513] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.441370182] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.445350624] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.457339859] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.484805494] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.488832901] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.506997936] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.538558666] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.547381396] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.560571583] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.592102904] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.596042881] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.614154674] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.640416543] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.649097416] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.661763102] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.688817556] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.697652305] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.710726561] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.70m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.738912279] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.743064060] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.14m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.761666926] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.793496277] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.797705394] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.815145588] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.841751266] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.850719131] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.868929890] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.900301150] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.904379318] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.924728970] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.951556286] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.961272215] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.973852046] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144640.997279311] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.001337812] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.019248948] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.046023722] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.049826213] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.068352112] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.095610219] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.099376005] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.123344991] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.145165566] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.149073357] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.172833837] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.201823229] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.206137405] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.228154246] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.71m, C:0.57m, R:1.84m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.255760755] [obst_avoid_node]: MOVING FORWARD: Turn complete or path clear. Ranges: L:0.75m, C:0.57m, R:1.07m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.259610803] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.75m, C:0.57m, R:1.07m
+[obstacle_avoid_sonar-5] [INFO] [1716144641.278551699] [obst_avoid_node]: AVOIDING: Object detected on the LEFT. Ranges: L:0.75m, C:0.57m, R:1.07m

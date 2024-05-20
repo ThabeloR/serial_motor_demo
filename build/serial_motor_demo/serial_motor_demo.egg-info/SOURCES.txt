@@ -3,10 +3,14 @@ setup.cfg
 setup.py
 config/teleop_twist_joy.yaml
 launch/rover_control.launch.py
+launch/sonar_launch.py
 resource/serial_motor_demo
 serial_motor_demo/__init__.py
 serial_motor_demo/driver.py
 serial_motor_demo/gui.py
+serial_motor_demo/obstacle_avoid_sonar.py
+serial_motor_demo/sonar.py
+serial_motor_demo/sonar_array.py
 serial_motor_demo.egg-info/PKG-INFO
 serial_motor_demo.egg-info/SOURCES.txt
 serial_motor_demo.egg-info/dependency_links.txt

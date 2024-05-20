@@ -1,0 +1,21 @@
+[2.424s] Invoking command in '/home/pro/Mars_Rover/build/serial_motor_demo': PYTHONPATH=/home/pro/Mars_Rover/build/serial_motor_demo/prefix_override:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/pro/Mars_Rover/build/serial_motor_demo:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pro/Mars_Rover/build/serial_motor_demo/build --no-deps symlink_data
+[3.353s] running develop
+[3.849s] running egg_info
+[3.850s] writing serial_motor_demo.egg-info/PKG-INFO
+[3.851s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[3.852s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[3.853s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[3.853s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[3.976s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.979s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[4.123s] running build_ext
+[4.124s] Creating /home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[4.128s] Installing driver script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.128s] Installing gui script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.129s] Installing obstacle_avoid_sonar script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.130s] Installing sonar script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.130s] Installing sonar_array script to /home/pro/Mars_Rover/install/serial_motor_demo/lib/serial_motor_demo
+[4.132s] 
+[4.132s] Installed /home/pro/Mars_Rover/build/serial_motor_demo
+[4.133s] running symlink_data
+[4.251s] Invoked command in '/home/pro/Mars_Rover/build/serial_motor_demo' returned '0': PYTHONPATH=/home/pro/Mars_Rover/build/serial_motor_demo/prefix_override:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/home/pro/Mars_Rover/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/pro/Mars_Rover/build/serial_motor_demo:/home/pro/Mars_Rover/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pro/Mars_Rover/build/serial_motor_demo/build --no-deps symlink_data
