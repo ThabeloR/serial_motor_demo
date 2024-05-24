@@ -13,6 +13,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/config', glob('config/*.yaml')),
         ('share/' + package_name + '/launch', ['launch/rover_control.launch.py']),
+        ('share/' + package_name + '/launch', ['launch/sonar_launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,8 +24,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'gui = serial_motor_demo.gui:main',
-            'driver = serial_motor_demo.driver:main'
+            'gui = serial_motor_demo.gui:main',        # Start your GUI node
+            'driver = serial_motor_demo.driver:main',  # Start your driver node
+            'sonar = serial_motor_demo.sonar:main',
+            'sonar_array = serial_motor_demo.sonar_array:main',  # Start Sonar Array Node
+            'obstacle_avoid_sonar = serial_motor_demo.obstacle_avoid_sonar:main'   # Start Obstacle Avoidance Node
             
         ],
     },

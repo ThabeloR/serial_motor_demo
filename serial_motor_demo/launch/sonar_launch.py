@@ -1,35 +1,13 @@
-import os
 import launch
 from launch_ros.actions import Node
-from ament_index_python.packages import get_package_share_directory
-from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration
-from launch.actions import DeclareLaunchArgument
-
 
 def generate_launch_description():
-    joy_params = os.path.join(get_package_share_directory('serial_motor_demo'),'config','teleop_twist_joy.yaml')
-    # Joystick Nodes
-    joy_node = Node(
-        package='joy',
-        executable='joy_node',
-        parameters=[joy_params],
-        name='joy'
-    )
-
-    teleop_node = Node(
-        package='teleop_twist_joy',
-        executable='teleop_node',
-        name='teleop_node',
-        parameters=[joy_params]
-    )
-
-    # Your Motor Driver Node
-    motor_driver_node = Node(
-        package='serial_motor_demo',
-        executable='driver',  # Assuming your executable is named 'driver'
-        name='motor_driver'
-    )
+    # Default parameter values
+    default_angle_min_deg = LaunchConfiguration('angle_min_deg', default='-30.0')
+    default_angle_max_deg = LaunchConfiguration('angle_max_deg', default='30.0')
+    default_range_min = LaunchConfiguration('range_min', default='0.2')
+    default_range_max = LaunchConfiguration('range_max', default='3.5')
 
     # Sonar Array Node
     sonar_array_node = Node(
@@ -56,14 +34,18 @@ def generate_launch_description():
         package='serial_motor_demo',
         executable='obstacle_avoid_sonar',
         name='obst_avoid_node',
+        parameters=[
+            # Topic remapping if necessary
+            # You can comment these out if the default topic names are correct
+            {'sonar_center_topic': '/sonar_1_range'},
+            {'sonar_left_topic': '/sonar_0_range'},
+            {'sonar_right_topic': '/sonar_2_range'}
+        ],
         output='screen'  # Optional: to see node output on the console
     )
 
 
     return launch.LaunchDescription([
-        joy_node,
-        teleop_node,
-        motor_driver_node,
         sonar_array_node,
-       obst_avoid_node,
+        obst_avoid_node,
     ])

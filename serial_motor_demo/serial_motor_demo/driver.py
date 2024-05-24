@@ -142,7 +142,7 @@ class MotorDriver(Node):
         max_pwm = 255*2  # Adjust this value based on your motor PWM range
         motor_pwm = int(linear_x * max_pwm / 2.0)  # Scale and handle direction
 
-
+        self.send_pwm_motor_command(motor_pwm, motor_pwm)  # Send to both motors
         # Assuming positive angular_z is right turn, negative is left
         if angular_z == 0:
             turn_direction = 0
@@ -166,7 +166,7 @@ class MotorDriver(Node):
         servo_command = f"h {turn_direction} {servo_value}"
 
         # Send motor and servo commands using your existing functions
-        self.send_pwm_motor_command(motor_pwm, motor_pwm)  # Send to both motors
+        
         self.send_command(servo_command)  # Send servo command
 
 
